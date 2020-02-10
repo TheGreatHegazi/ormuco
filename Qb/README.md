@@ -1,8 +1,9 @@
-Test cases: 
-First string		Second String      	Expected
-1.1 			1.2			1.1 < 1.2
-1.2			1.1			1.2 > 1.1
-1.1			1.1			1.1 = 1.1
-1.1			abc			1.1 < abc
-abc 			1.1			abc < 1.1
-1.  1			1.      1		1.1 = 1.1
+|              | Test cases    |               |
+|--------------|---------------|---------------|
+| First string | Second String | Expected      |
+| 1.1          | 1.2           | 1.1 &lt; 1.2  |
+| 1.2          | 1.1           | 1.2 &gt; 1.1  |
+| 1.1          | 1.1           | 1.1 = 1.1     |
+| 1.1          | abc           | 1.1 &lt; abc  |
+| abc          | 1.1           | abc &lt; 1.1  |
+| 1.   1       | 1. 1          | 1.1 = 1.1     |
